@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma3lich | Official Pro Profile</title>
+    <style>
+        :root { --pink: #ff007f; --dark-bg: #0f0f0f; --card-bg: #1e1e1e; }
+        body { font-family: 'Arial', sans-serif; background-color: var(--dark-bg); color: white; margin: 0; padding: 20px; }
+        .container { max-width: 1100px; margin: auto; }
+        
+        /* Header avec ta ganache */
+        .header { display: flex; align-items: center; background: var(--card-bg); padding: 25px; border-radius: 15px; border-bottom: 4px solid var(--pink); margin-bottom: 20px; }
+        .header img { width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--pink); margin-right: 25px; object-fit: cover; }
+        .header h1 { margin: 0; font-size: 45px; color: var(--pink); text-transform: uppercase; letter-spacing: 2px; }
+        
+        .section-title { color: var(--pink); border-left: 5px solid var(--pink); padding-left: 15px; margin: 40px 0 20px; text-transform: uppercase; font-size: 20px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .card { background: var(--card-bg); border-radius: 10px; padding: 15px; text-align: center; border: 1px solid #333; transition: 0.3s; }
+        .card:hover { border-color: var(--pink); }
+        
+        .img-box { background: #000; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 15px; overflow: hidden; }
+        .img-box img { max-width: 95%; max-height: 95%; object-fit: contain; }
+        
+        .white-bg { background: #ffffff; }
+        
+        .info-label { font-size: 11px; color: #888; text-transform: uppercase; margin-bottom: 5px; letter-spacing: 1px; }
+        .info-value { font-size: 16px; font-weight: bold; color: #eee; }
+        
+        .settings-bar { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--pink); color: black; padding: 15px; border-radius: 10px; margin-bottom: 20px; font-weight: bold; text-align: center; font-size: 18px; }
+        
+        .crosshair-box { background: #1a1a1a; padding: 20px; border-radius: 10px; border: 1px dashed var(--pink); font-family: 'Courier New', monospace; color: var(--pink); text-align: center; font-size: 18px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="ganache.jpg" alt="Ma3lich Ganache">
+        <div>
+            <h1>Ma3lich</h1>
+            <p style="margin:5px 0 0; color:#aaa; font-weight: bold;">OFFICIAL CS2 PRO SETTINGS</p>
+        </div>
+    </div>
+
+    <div class="settings-bar">
+        <div>DPI: 800</div>
+        <div>SENS: 1.15</div>
+        <div>RES: 1280x1024</div>
+        <div>5:4 STRETCHED</div>
+    </div>
+
+    <h2 class="section-title">🖥️ PC Specs & Display</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="info-label">Processor</div>
+            <div class="img-box white-bg"><img src="Processor.jpg"></div>
+            <div class="info-value">Intel Core i9-9900K</div>
+        </div>
+        <div class="card">
+            <div class="info-label">Graphics Card</div>
+            <div class="img-box white-bg"><img src="Graphics Card.jpg"></div>
+            <div class="info-value">RTX 2070 SUPER TRIO</div>
+        </div>
+        <div class="card">
+            <div class="info-label">Monitor</div>
+            <div class="img-box"><img src="ecran.jpg"></div>
+            <div class="info-value">Zowie XL2546X</div>
+        </div>
+    </div>
+
+    <h2 class="section-title">🖱️ Gear</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="info-label">Mouse</div>
+            <div class="img-box"><img src="Mouse.jpg"></div>
+            <div class="info-value">Zowie EC2-CW</div>
+        </div>
+        <div class="card">
+            <div class="info-label">Keyboard</div>
+            <div class="img-box"><img src="Keyboard.jpg"></div>
+            <div class="info-value">Wooting 60HE</div>
+        </div>
+        <div class="card">
+            <div class="info-label">Headset</div>
+            <div class="img-box"><img src="Headset.jpg"></div>
+            <div class="info-value">Logitech G Pro X</div>
+        </div>
+        <div class="card">
+            <div class="info-label">Mousepad</div>
+            <div class="img-box"><img src="Mousepad.jpg"></div>
+            <div class="info-value">SteelSeries QcK</div>
+        </div>
+    </div>
+
+    <h2 class="section-title">🔫 Skins</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="info-label">AK-47</div>
+            <div class="img-box"><img src="ak.png"></div>
+            <div class="info-value">L'oligarque</div>
+        </div>
+        <div class="card">
+            <div class="info-label">M4A4</div>
+            <div class="img-box"><img src="m4.png"></div>
+            <div class="info-value">Polysoup</div>
+        </div>
+        <div class="card">
+            <div class="info-label">USP-S</div>
+            <div class="img-box"><img src="usp.png"></div>
+            <div class="info-value">Cyanographie</div>
+        </div>
+        <div class="card">
+            <div class="info-label">GLOCK-18</div>
+            <div class="img-box"><img src="GLOCK.png"></div>
+            <div class="info-value">Shinobu</div>
+        </div>
+        <div class="card">
+            <div class="info-label">Desert Eagle</div>
+            <div class="img-box"><img src="DEAGLE.png"></div>
+            <div class="info-value">À cran</div>
+        </div>
+    </div>
+
+    <h2 class="section-title">🎯 Crosshair Code</h2>
+    <div class="crosshair-box">
+        CSGO-8ACM-017F-B6AF-1F0F-4L0
+    </div>
+</div>
+
+</body>
+</html>
